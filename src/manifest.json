@@ -1,0 +1,15 @@
+{
+    "name": "Musicstreams",
+    "version": "0.0.1",
+    "description": "yeet",
+    "permissions": ["storage"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "ya yeeeeet"
+    },
+    "manifest_version": 2
+}
